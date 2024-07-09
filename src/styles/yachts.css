@@ -1,0 +1,119 @@
+.yacht-page-section-one {
+    padding: 50px;
+}
+
+.yacht-page-header {
+    padding-left: 30px;
+}
+
+.yacht-cards-details-container {
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* background-color: lime; */
+    /* align-items: center; */
+}
+.yacht-card{
+    /* background-color: pink; */
+    display: flex;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+    margin: 50px 5px;
+    /* transition: all 0.5s ease-out; */
+}
+/* .yacht-card:hover{
+    border: 1px solid #3f71b9;
+    transform: scale(1.1);
+} */
+.yacht-card-img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.yacht-card-details{
+    /* background-color: lightblue; */
+    display: flex;
+    flex-direction: column;
+    margin:10px 10px;
+    /* padding: 0px 10px; */
+    /* border-right: 1px solid lightgray; */
+}
+.yacht-specs-container{
+    /* background-color: yellow; */
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+}
+.yacht-spec-item{
+    /* background-color: pink; */
+    margin: 5px;
+    padding: 1px 5px;
+    border-radius: 20px;
+    border: 1px solid lightgray;
+
+}
+.yacht-card-dealer-info{
+    display: flex;
+    /* background-color: lime; */
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 1px solid lightgray;
+    margin: 10px 0px 5px 0px;
+}
+.yacht-card-dealer-info h5{
+    font-style: italic;
+    text-shadow: 2px 7px 5px rgba(0,0,0,0.3),0px -4px 10px rgba(255,255,255,0.3);
+}
+.yacht-card-dealer-logo{
+    height: 70px;
+    width: 100px;
+    aspect-ratio: 3/2;
+}
+.yacht-phone-btn{
+    /* border-top-left-radius: 20px; */
+    border-bottom-left-radius: 10px;
+}
+.yacht-send-btn{
+    /* border-top-right-radius: 20px; */
+    border-bottom-right-radius: 10px;
+}
+.yacht-card-price-info-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.yacht-card-price-info-container h5{
+    text-align: center;
+}
+
+@media screen and (max-width:1050px) {
+    .yacht-page-section-one{
+        padding: 0px 20px;
+    }
+    .yacht-details-section{
+        width: 100%;
+    }
+    .yacht-accordion{
+        display: none;
+    }
+    .yacht-animation{
+        display: none !important;
+    }
+    .yacht-page-header{
+        padding: 10px;
+    }
+    /* .yacht-card{
+        display: flex;
+        flex-direction: column;
+    } */
+    .yacht-card-img{
+        border-radius: 20px 20px 0 0;
+    }
+    .yacht-card-details{
+        border: none;
+    }
+}

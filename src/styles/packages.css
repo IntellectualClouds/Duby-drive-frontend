@@ -1,0 +1,133 @@
+.package-page-section-one {
+    background-color: whitesmoke;
+    padding: 50px 0px;
+}
+
+.package-card-container {
+    /* background-color: lightblue; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.package-card {
+    margin: 5px;
+    margin-bottom: 20px;
+    width: 350px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* transition: all 0.5s ease-out; */
+    cursor: pointer;
+}
+
+.package-card:hover {
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+}
+
+.package-card-header {
+    display: flex;
+    justify-content: center;
+}
+
+.package-card-header-heading {
+    text-align: center !important;
+    padding-top: 10px;
+}
+
+.package-card-body-one {
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.package-card-sell-heading {
+    font-size: 20px;
+    margin-bottom: 5px;
+    text-decoration: line-through;
+}
+
+.package-card-offer-price {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.package-card-img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.package-card-duration-heading {
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    /* letter-spacing: 0.5; */
+}
+
+.package-card-info-heading {
+    font-size: 15px;
+    text-align: center;
+}
+
+.package-card-body-two {
+    border-top: 1px dashed lightgray;
+    padding-top: 20px;
+}
+
+.package-card-details {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.package-card-tick-icon {
+    height: 15px;
+    width: 15px;
+    margin-right: 7px;
+}
+
+.package-card-details-heading {
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.package-card-footer {
+    margin-top: 30px;
+}
+
+.package-card-footer-btn {
+    background: linear-gradient(145deg, rgb(231, 204, 154) 0%, orange 100%);
+    color: white !important;
+    width: 100%;
+    transition: all 0.5s ease-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.package-card-footer-btn img {
+    margin-right: 5px;
+}
+
+.package-card-footer-btn:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+@media screen and (max-width:1080px) {
+    .package-card-container {
+        /* flex-direction: column; */
+    }
+}
+
+@media screen and (max-width:768px) {
+    .package-page-section-one{
+        margin-top: -39px;
+    }
+}

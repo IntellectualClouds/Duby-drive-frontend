@@ -1,0 +1,16 @@
+.banner-container{
+    /* background-color: pink; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width:750px) {
+    .banner-container{
+        margin: 0px;
+        margin-bottom: -150px;
+    }
+}

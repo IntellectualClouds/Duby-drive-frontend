@@ -1,0 +1,100 @@
+.quad-card-dealer-info {
+    justify-content: space-evenly;
+}
+
+.quad-bike-info-container {
+    /* background-color: pink; */
+    padding: 5px;
+}
+
+.quad-bike-info {
+    margin-bottom: 5px;
+}
+
+.quad-bike-info span {
+    font-size: 14px;
+}
+
+.quad-bike-check-icon {
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+}
+
+.quad-bike-tick-icon {
+    height: 13px;
+    width: 13px;
+    margin-right: 5px;
+}
+
+.quad-refreshment-info {
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    padding: 0px 5px;
+}
+
+.quad-refreshment-info span {
+    /* font-size: 12px; */
+    font-size: 10px;
+    text-align: center;
+}
+
+.quad-bike-section-two{
+    padding: 50px 100px 30px 100px;
+}
+.quad-bike-section-two-sub-section{
+    /* background-color: lime; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.quad-bike-details-box{
+    /* background-color: pink; */
+    width: 320px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.quad-bike-details-box-header{
+    margin-bottom: 20px;
+}
+
+.quad-bike-details-box-header img{
+    height: 50px;
+    width: 50px;
+}
+
+.quad-bike-details-box-body{
+    display: flex;
+    /* background-color: yellow; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quad-bike-section-three{
+    background-image: url(../assets/backgrounds/quad-bike-bg.webp);
+    height: 300px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.quad-bike-section-four{
+    padding: 50px 100px;
+    /* background-color: pink; */
+}
+
+@media screen and (max-width: 1050px) {
+    
+    .quad-bike-section-two{
+        padding: 0;
+    }
+    
+}

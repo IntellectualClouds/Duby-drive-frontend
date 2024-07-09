@@ -1,0 +1,308 @@
+.ul-parent-container {
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.ul-list-container {
+    /* background-color: lime; */
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.navbar_links {
+    color: white !important;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-icons {
+    margin-right: 7px;
+}
+
+
+.mega-menu-container {
+    /* background-color: yellow; */
+    width: 100%;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999999;
+}
+
+.mega-menu {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+    animation: updateMenuScale 0.3s ease-in-out;
+}
+
+.menu-cards {
+    background-color: none;
+    display: flex;
+    padding: 10px;
+    margin-bottom: 20px;
+    transition: all 0.2s ease-out;
+    transform: scale(0.9);
+    /* background-color: red; */
+    align-items: center;
+}
+
+.menu-cards:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.mega-menu-brand-card-img {
+    height: 50px;
+    /* width: 70px; */
+    /* background-color: red; */
+    margin-right: 5px;
+}
+
+.menu-cards div h5:hover {
+    transition: all 0.2s ease-out;
+    color: #3f71b9 !important;
+}
+
+.menu-cards div h6:hover {
+    transition: all 0.2s ease-out;
+    color: #3f71b9 !important;
+}
+
+.menu-item-bg-img {
+    height: 350px;
+    width: 200px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.rent-a-car-menu-list-container {
+    list-style: none;
+    padding: 0px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.rent-a-car-menu-list-container li {
+    /* background-color: lightblue; */
+    margin: 5px;
+    width: 140px;
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+.rent-a-car-menu-list-container li:hover a {
+    color: #3f71b9;
+}
+
+.rent-a-car-menu-list-container li a:hover {
+    color: #3f71b9 !important;
+}
+
+.rent-a-car-menu-list-container li:last-child {
+    margin-bottom: -1px;
+}
+
+.quick-links-dropdown {
+    height: 350px;
+    overflow-y: scroll;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+/* width */
+.quick-links-dropdown::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+.quick-links-dropdown::-webkit-scrollbar-track {
+    /* box-shadow: inset 0 0 5px grey; */
+    border-radius: 10px;
+    background-color: white;
+}
+
+/* Handle */
+.quick-links-dropdown::-webkit-scrollbar-thumb {
+    background: lightgrey;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+.quick-links-dropdown::-webkit-scrollbar-thumb:hover {
+    background: #3f71b9;
+}
+
+.quick-links-dropdown li {
+    border-bottom: 1px solid lightgrey;
+    font-size: 13px;
+    padding: 5px;
+}
+
+.quick-links-dropdown li a:hover {
+    background-color: whitesmoke !important;
+    color: #3f71b9 !important;
+}
+
+.navbar-toggler {
+    margin: 10px;
+}
+
+.mobile-navbar-header-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    display: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Toogle Navbar Modal CSS */
+.mobile-navbar-modal {
+    /* background-color: pink; */
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    left: -100%;
+    /* left: 0%; */
+    z-index: 1;
+    display: flex;
+}
+
+.active-nav-modal {
+    transition: all 0.2s ease-out;
+    top: 0%;
+    left: 0%;
+}
+
+.mobile-navbar-container {
+    width: 90%;
+    height: 100%;
+    /* From https://css.glass */
+    /* background: rgba(255, 255, 255, 0.2);
+     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+     backdrop-filter: blur(14.4px);
+     -webkit-backdrop-filter: blur(14.4px); */
+    background-color: white;
+    opacity: 0.8;
+}
+
+.nav-close-vertical-bar {
+    width: 10%;
+    height: 100%;
+}
+
+.mobile-nav-header {
+    /* background-color: lightcoral; */
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.mobile-nav-header-logo {
+    height: 40px;
+    width: 40px;
+    margin: 20px 10px;
+}
+
+.mobile-nav-header h4 {
+    margin-bottom: 0px;
+}
+
+.mobile-nav-close-icon {
+    font-size: 35px;
+    color: gray;
+    position: absolute;
+    right: 5%;
+}
+
+.mobile-nav-body {
+    /* background-color: blue; */
+    overflow-y: scroll;
+    height: 90%;
+}
+
+.mobile-nav-links {
+    margin: 10px 20px;
+    font-size: 17px;
+    cursor: pointer;
+    /* background-color: red; */
+    padding: 7px;
+    border-bottom: 1px solid rgb(233, 225, 225);
+}
+
+.mobile-nav-links:last-child {
+    border: none;
+}
+
+@keyframes updateMenuScale {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@media screen and (max-width:991px) {
+    .navbar {
+        /* background-color: #3f71b9; */
+        background-color: rgb(43, 43, 43);
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+
+    .navbar-mobile {
+        margin-bottom: 40px;
+    }
+
+    .mobile-navbar-header-container {
+        display: flex;
+    }
+
+    .navbar div {
+        padding: 0px !important;
+    }
+
+    .container-fluid-navbar {
+        border-bottom: 3px solid #3f71b9;
+    }
+
+    .ul-parent-container {
+        background-color: black !important;
+    }
+
+    .ul-list-container li {
+        text-align: center;
+    }
+
+    .ul-list-container li a {
+        /* color: black !important; */
+        text-align: center;
+    }
+}

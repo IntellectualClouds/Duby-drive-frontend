@@ -1,0 +1,128 @@
+.rental-companies-section-one {
+    background-color: whitesmoke;
+    padding: 50px 100px;
+}
+
+.rental-companies-section-one-sub-section {
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+}
+
+.rental-companies-section-one-header {
+    /* background-color: antiquewhite; */
+}
+
+.rental-companies-section-one-body {
+    /* background-color: lightcoral; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.rental-companies-section-one-list-container {
+    /* background-color: lightgreen; */
+    padding: 30px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.rental-companies-section-one-banner-portion-container {
+    /* background-color: lightslategray; */
+}
+
+.rental-companies-section-one-list-item {
+    background-color: white;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.5s ease-out;
+    margin-bottom: 20px;
+}
+.rental-companies-section-one-list-item:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.rental-companies-section-one-list-item-header {
+    /* background-color: lightblue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.rental-companies-section-one-list-item-header h3{
+    margin-left: 10px;
+}
+
+.rental-companies-section-one-list-item-header div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rental-companies-section-one-list-item-dealer-logo {
+    height: 50px;
+    /* width: 100px; */
+}
+
+.rental-companies-section-one-list-item-body {
+    /* background-color: lightgreen; */
+}
+
+.rental-companies-section-one-list-item-details {
+    /* background-color: lightcoral; */
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.rental-companies-section-one-list-item-details img {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+.rental-companies-section-one-list-item-details span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.rental-companies-section-one-list-item-footer{
+    /* background-color: pink; */
+    display: flex;
+    justify-content: flex-end;
+}
+.rental-companies-section-one-list-item-footer a{
+    text-decoration: none;
+}
+
+@media screen and (max-width:1150px) {
+    .rental-companies-section-one{
+        padding: 20px;
+    }
+    .rental-companies-section-one-header h3{
+        text-align: center;
+    }
+    .rental-companies-section-one{
+        justify-content: center;
+        align-items: center;
+    }
+    .rental-companies-section-one-body{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .rental-companies-section-one{
+        margin-top: -40px;
+    }
+    .social-links-container-rental-companies{
+        margin: 10px 0px;
+    }
+}

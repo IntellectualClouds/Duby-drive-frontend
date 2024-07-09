@@ -1,0 +1,25 @@
+.faq-section-two-header {
+    padding: 10px;
+    /* background-color: red; */
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width:768px) {
+    .faq-section-one {
+        padding: 0px 10px 10px 10px !important;
+    }
+
+    .faq-section-two {
+        padding: 0px 10px 10px 10px !important;
+    }
+
+    .faq-section-three {
+        padding: 0px 10px 10px 10px !important;
+    }
+
+    .faq-section-one {
+        /* margin-top: -50px; */
+    }
+}

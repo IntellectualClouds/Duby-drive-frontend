@@ -1,0 +1,37 @@
+[
+    {
+        "day": "Sunday",
+        "time": "Open 24 hours",
+        "timings": "9am - 9pm"
+    },
+    {
+        "day": "Monday",
+        "time": "Open 24 hours",
+        "timings": "9am - 9pm"
+    },
+    {
+        "day": "Tuesday",
+        "time": "Open 24 hours",
+        "timings": "9am - 9pm"
+    },
+    {
+        "day": "Wednesday",
+        "time": "Open 24 hours",
+        "timings": "9am - 9pm"
+    },
+    {
+        "day": "Thursday",
+        "time": "Open 24 hours",
+        "timings": "9am - 9pm"
+    },
+    {
+        "day": "Friday",
+        "time": "Open 24 hours",
+        "timings": "Closed"
+    },
+    {
+        "day": "Saturday",
+        "time": "Open 24 hours",
+        "timings": "9am - 9pm"
+    }
+]

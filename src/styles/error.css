@@ -1,0 +1,35 @@
+.error-page{
+    height: 100vh;
+    width: 100%;
+    /* background-color: pink; */
+    margin-top: -90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+    flex-wrap: wrap;
+    background-image: url(../assets/backgrounds/error-bg.jpg);
+    background-position: center center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.error-page .section-one{
+    /* background-color: lightblue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.error-page .section-one button{
+    width: 100px;
+}
+.error-page .section-two{
+    /* background-color: lime; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.error-page .section-two h1{
+    font-size: 200px;
+}
