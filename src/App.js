@@ -1,15 +1,13 @@
-import React from 'react';
-import Main from './main';
+import React from "react";
+import 'react-tagsinput/react-tagsinput.css';
 
-import { BrowserRouter } from 'react-router-dom';
+//! Importing Main App Component...
+import AppMainComponent from "./Components/appMainFile";
 
 const App = () => {
-
   return (
     <>
-      <BrowserRouter>
-        <Main />
-      </BrowserRouter>
+      <AppMainComponent />
     </>
   );
 };
